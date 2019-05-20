@@ -23,12 +23,12 @@ end
 
 def printer(arr)
   bbc = batch_badge_creator(arr)
-  ar - assign_rooms(arr)
+  ar = assign_rooms(arr)
   bbc.each do |n|
     puts n
   end
-ar.each do |r|
-  puts r
-end
+  ar.each do |r|
+    puts r
+  end
 
 end
