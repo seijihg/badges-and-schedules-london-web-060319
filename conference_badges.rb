@@ -30,5 +30,5 @@ def printer(arr)
 ar.each do |r|
   puts r
 end
-  
+
 end
