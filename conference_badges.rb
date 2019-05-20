@@ -30,4 +30,3 @@ def printer(arr)
     puts assign_rooms(room)
   end
 end
-
